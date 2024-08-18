@@ -1,6 +1,3 @@
-import mypic from "../asserts/mypic.JPG";
-import myvid from "../asserts/myvid.MOV";
-import meeting from "../asserts/meeting.JPG";
 
 const Work = () => {
     return (
