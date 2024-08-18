@@ -28,14 +28,14 @@ const NavBar = ({children}) => {
                         education
                     </button>
                     <button className="flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0" onClick={()=>{
-                        navigate("/blog")
+                        navigate("/build")
                     }}>
-                        blog
+                        build
                     </button>
-                    <button className="flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0" onClick={()=>{
+                    <button className="flex place-items-center text-green-600 gap-2 p-8 lg:pointer-events-auto lg:p-0" onClick={()=>{
                         navigate("/contact")
                     }}>
-                        contact
+                        dev-Note
                     </button>
                 </div>
             </div>
