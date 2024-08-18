@@ -1,6 +1,3 @@
-import mypic from "../asserts/mypic.JPG"
-import meeting from "../asserts/meeting.jPG"
-import myvid from "../asserts/myvid.MOV"
 
 const Home = () => {
     return (
