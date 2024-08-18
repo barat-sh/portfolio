@@ -1,8 +1,10 @@
 import './App.css'
 import {BrowserRouter, Routes, Route} from "react-router-dom";
-import NavBar from "./components/Navbar.jsx";
-import Home from "./components/Home.jsx";
-import Work from "./components/Work.jsx";
+import NavBar from "./pages/Navbar.jsx";
+import Home from "./pages/Home.jsx";
+import Work from "./pages/Work.jsx";
+import Education from "./pages/Education.jsx";
+import Build from "./pages/Build.jsx";
 
 function App() {
   return (
@@ -12,8 +14,8 @@ function App() {
                     <Routes>
                         <Route path="/" element={<Home/>} />
                         <Route path="/work" element={<Work/>} />
-                        {/*<Route path="/education" element={<Home/>} />*/}
-                        {/*<Route path="/blog" element={<Home/>} />*/}
+                        <Route path="/education" element={<Education/>} />
+                        <Route path="/build" element={<Build/>} />
                         {/*<Route path="/contact" element={<Home/>} />*/}
                     </Routes>
                 </NavBar>
