@@ -2,6 +2,7 @@ import mypic from "../../public/mypic.JPG";
 import macLogin from "../../public/macLogin.JPG";
 import meeting from "../../public/meeting.JPG";
 import img2 from "../../public/img2.jpg";
+import SocialButton from "../components/SocialButton.jsx";
 
 const Home = () => {
     return (
@@ -58,11 +59,25 @@ const Home = () => {
                     helping others achieve their learning goals. It is incredibly rewarding to see my students grasp
                     complex ideas and succeed in their own academic and professional pursuits.
                 </p>
+                <div className="flex justify-evenly">
+                    <SocialButton userName={"barat-sh"} buttonKind={"github"}/>
+                    <SocialButton userName={"barathelangovan"} buttonKind={"linkedin"}/>
+                </div>
                 <p className="text-md">
                     Overall, my background is a blend of rigorous academic training, hands-on industry experience, and a
                     passion for teaching. I am continuously seeking opportunities to learn, grow, and contribute to the
                     field of computer science.
                 </p>
+                <p>
+                    I invest small angel checks into tech community building tools for developers.
+                </p>
+                <p>
+                    Ive worked with companies on developer marketing, developer relations, building open-source communities, product-led growth, and more.
+                </p>
+                <div className="flex space-x-4">
+                    <SocialButton userName={"barat_tw"} buttonKind={"twitter"} />
+                    <SocialButton userName={"barat_tw"} buttonKind={"twitter"} />
+                </div>
             </div>
         </>
     )
