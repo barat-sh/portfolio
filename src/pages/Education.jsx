@@ -1,4 +1,11 @@
+import {useEffect} from "react";
+
 const Education = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <>
             <div className="flex flex-col text-justify md:max-w-2xl mt-4 py-2 space-y-4 text-gray-200">
