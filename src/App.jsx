@@ -16,7 +16,7 @@ function App() {
                         <Route path="/work" element={<Work/>} />
                         <Route path="/education" element={<Education/>} />
                         <Route path="/build" element={<Build/>} />
-                        {/*<Route path="/contact" element={<Home/>} />*/}
+                        <Route path="*" element={<div>Page not found...</div>} />
                     </Routes>
                 </NavBar>
             </BrowserRouter>
