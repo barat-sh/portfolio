@@ -53,16 +53,15 @@ const Home = () => {
                     </div>
                 </div>
                 <p className="text-md">
-                    Over the past, I worked as the SDE intern of engineering team at
+                    Over the past, I worked as an SDE in engineering team at
                     <a href={"https://turbohire.co"} className="underline inline-flex ml-2 mr-[3px]">
                         <img className="w-4 h-4 bg-neutral-400" alt="turbohire"
                              src="https://turbohire.co/wp-content/uploads/2023/01/cropped-favicon-192x192.png"/>
                     </a>
-                    <a className="underline text-neutral-100" href={"https://turbohire.co"}>Turbohire</a>
-                    . where,I had the opportunity to work on huge
-                    codebase, collaborate with talented professionals, and apply my theoretical knowledge to practical,
-                    real-world problem. This experience not only honed my technical skills but also taught me the
-                    importance of teamwork, problem-solving, and adaptability in a fast-paced work environment in
+                    <a className="underline text-neutral-100" href={"https://turbohire.co"}>Turbohire</a> and Intern
+                    at <a className="underline text-neutral-100" href={"https://www.interviewbit.com"}>InterviewBit</a>
+                    . where, I had the opportunity to work on huge
+                    codebase, in collaboration with talented professionals, in a fast-paced work environment in
                     production release.
                 </p>
                 <p className="text-md">
@@ -72,7 +71,7 @@ const Home = () => {
                     }}>
                         work
                     </button>
-                    , I am dedicated to sharing my knowledge with
+                    , I dedicate to sharing my knowledge with
                     others. I help teach Data Structures and Algorithms(DSA) to individuals and cohort, also helps open
                     community with web-dev. Teaching DSA allows me to stay sharp in fundamental concepts . It is
                     incredibly rewarding to see folks grasp complex ideas and succeed in their own academic.
@@ -126,7 +125,7 @@ const Home = () => {
                     href="https://github.com/barat-sh/Vim-Setup"
                     className="p-3 px-2 sm:px-5 md:px-8 bg-neutral-900 rounded-lg border border-neutral-800 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-gray-600 hover:dark:bg-neutral-800/30">
                     <div className="flex justify-between">
-                        <span className=" text-md">Here i made <i className="font-bold">vim</i> more functionsl and fun.</span>
+                        <span className=" text-md">Here i made <i className="font-bold">vim</i> more functional and fun.</span>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
                              stroke="currentColor" className="size-[1.4rem] mt-[0.4rem] mr-2">
                             <path strokeLinecap="round" strokeLinejoin="round"
@@ -134,13 +133,14 @@ const Home = () => {
                         </svg>
                     </div>
                     <div className="leading-normal mt-2">
-                        <span className="text-sm text-neutral-500">we always expect editors to be faster and easy to use(by not touching mouse i&apos;m kidding..). here i made code editor more fast(i don&apos;t vim does) and fun to use.</span>
+                        <span className="text-sm text-neutral-500">we all expect code editors to be faster and easy to use(withnot touching mouse, i&apos;m kidding..). here i made code editor more faster(i don&apos;t vim does) and fun to use.</span>
                     </div>
                 </a>
                 <p>
                     Ive worked with companies on developer marketing, developer relations, building open-source
                     communities, product-led growth, and more.
                 </p>
+                <div style={{borderTop: '1px solid gray', margin: '20px 0'}}/>
                 <div className="flex space-x-4">
                     <a
                         href="https://x.com/_barat_tw"
@@ -150,7 +150,7 @@ const Home = () => {
                             <path strokeLinecap="round" strokeLinejoin="round"
                                   d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"/>
                         </svg>
-                        <span className="">follow me</span>
+                        <span className="font-mono">follow me</span>
                     </a>
                 </div>
             </div>
