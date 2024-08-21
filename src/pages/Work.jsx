@@ -7,7 +7,7 @@ const Work = () => {
     }, []);
 
     return (
-        <main className="mb-32">
+        <>
             <div className="flex flex-col text-justify md:max-w-2xl mt-4 py-2 space-y-4">
                 <p className="flex font-mono w-auto pt-6 text-xl text-neutral-300">
                     my work
@@ -161,7 +161,7 @@ const Work = () => {
                 </button>
             </div>
 
-        </main>
+        </>
     )
 }
 
