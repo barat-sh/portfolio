@@ -13,7 +13,7 @@ const Home = () => {
                 <p className="flex static w-auto justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-4 pt-6 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
                     <code className="font-mono text-[1rem] font-bold">hey, I&apos;m Barat👋</code>
                 </p>
-                <p className="text-sm text-gray-300 pt-8">a software engineer.</p>
+                <p className="text-sm text-gray-300 pt-8 ml-2 sm:ml-0">a software engineer.</p>
             </div>
             <div className="flex flex-col text-justify md:max-w-2xl mt-4 py-2 mb-32 space-y-4 text-neutral-300">
                 <p className="text-md">

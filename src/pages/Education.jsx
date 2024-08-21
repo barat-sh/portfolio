@@ -19,28 +19,28 @@ const Education = () => {
             </div>
             <div style={{borderTop: '1px solid gray', margin: '10px 0'}}/>
             <div
-                className="flex justify-between text-justify mt-6 max-w-2xl min-w-[440px] md:min-w-[500px] mb-6 w-auto h-auto min-h-32 shadow-md rounded-lg space-y-4 text-gray-200 border border-stone-700 p-4 border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-gray-600 hover:dark:bg-neutral-800/30">
+                className="flex justify-between text-justify mt-6 max-w-2xl mb-6 w-auto min-w-72 h-auto min-h-32 shadow-md rounded-lg space-y-4 text-gray-200 border border-stone-700 p-4 px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-gray-600 hover:dark:bg-neutral-800/30">
                 <div>
-                    <p className="flex w-auto pt-6 text-xl text-neutral-300">
+                    <p className="flex w-auto pt-6 text-md md:text-xl text-neutral-300">
                         Woolf University
                     </p>
                     <p className="flex w-auto text-sm text-gray-500">
                         Masters in Computer Science
                     </p>
                 </div>
-                <span className="text-neutral-400">90 credits</span>
+                <span className="text-neutral-400 hidden sm:block">90 credits</span>
             </div>
             <div
-                className="flex justify-between text-justify max-w-2xl min-w-[440px] md:min-w-[500px] mb-6 w-auto h-auto min-h-32 shadow-md rounded-lg space-y-4 text-gray-200 border border-stone-700 p-4 border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-gray-600 hover:dark:bg-neutral-800/30">
+                className="flex justify-between text-justify max-w-2xl mb-6 w-auto h-auto min-h-32 shadow-md rounded-lg space-y-4 text-gray-200 border border-stone-700 p-4 px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-gray-600 hover:dark:bg-neutral-800/30">
                 <div>
-                    <p className="flex w-auto pt-6 text-xl text-neutral-300">
+                    <p className="flex w-auto pt-6 text-md md:text-xl text-neutral-300">
                         BIT - Erode
                     </p>
                     <p className="flex w-auto text-sm text-gray-500">
                         Bachelors in Electronics and Instrumentation. (spec: Machine Coding)
                     </p>
                 </div>
-                <span className="text-neutral-400">120 credits</span>
+                <span className="text-neutral-400 hidden sm:block">120 credits</span>
             </div>
             <div style={{borderTop: '1px solid gray', margin: '10px 0'}}/>
             <div className="flex space-x-4 my-10">
