@@ -85,7 +85,7 @@ const Home = () => {
                             <path strokeLinecap="round" strokeLinejoin="round"
                                   d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"/>
                         </svg>
-                        <span className="">twitter</span>
+                        <span className="font-mono">twitter</span>
                     </a>
                     <a
                         href="https://github.com/barat-sh"
@@ -95,7 +95,7 @@ const Home = () => {
                             <path strokeLinecap="round" strokeLinejoin="round"
                                   d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"/>
                         </svg>
-                        <span className="">github</span>
+                        <span className="font-mono">github</span>
                     </a>
                     <a
                         href="https://www.linkedin.com/in/barathelangovan/"
@@ -105,7 +105,7 @@ const Home = () => {
                             <path strokeLinecap="round" strokeLinejoin="round"
                                   d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"/>
                         </svg>
-                        <span className="">linkedin</span>
+                        <span className="font-mono">linkedin</span>
                     </a>
                 </div>
                 <p>
