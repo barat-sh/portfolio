@@ -9,17 +9,17 @@ import Build from "./pages/Build.jsx";
 function App() {
   return (
     <>
-            <BrowserRouter>
-                <NavBar>
-                    <Routes>
-                        <Route path="/" element={<Home/>} />
-                        <Route path="/work" element={<Work/>} />
-                        <Route path="/education" element={<Education/>} />
-                        <Route path="/build" element={<Build/>} />
-                        <Route path="*" element={<div>Page not found...</div>} />
-                    </Routes>
-                </NavBar>
-            </BrowserRouter>
+        <BrowserRouter>
+            <NavBar>
+                <Routes>
+                    <Route path="/" element={<Home/>} />
+                    <Route path="/work" element={<Work/>} />
+                    <Route path="/education" element={<Education/>} />
+                    <Route path="/build" element={<Build/>} />
+                    <Route path="*" element={<div>Page not found...</div>} />
+                </Routes>
+            </NavBar>
+        </BrowserRouter>
     </>
   )
 }
