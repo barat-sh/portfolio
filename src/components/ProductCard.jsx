@@ -4,7 +4,7 @@ const ProductCard = ({title, info, detailedInfo, github, liveLink, liveLinkStatu
     return (
         <>
             <div
-                className="flex flex-col text-justify max-w-2xl w-auto mb-6 h-auto min-h-48 shadow-md rounded-lg space-y-4 text-gray-200 border border-stone-700 p-4 px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-gray-600 hover:dark:bg-neutral-800/30">
+                className="flex flex-col text-justify max-w-2xl w-auto mb-6 h-auto min-h-48 shadow-md rounded-lg space-y-4 text-gray-200 border border-stone-700 p-4 px-5 py-4 transition-colors hover:border-gray-600 hover:bg-neutral-800/30">
                 <div className="sm:flex justify-between pt-4">
                     <p className="text-xl font-mono">
                         {title}

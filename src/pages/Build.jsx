@@ -15,8 +15,8 @@ const Build = () => {
                     read my projects
                 </p>
                 <p className="flex text-justify w-auto pb-4 pt-2 text-stone-300">
-                    On a mission to build products developers love, and along the way, teach the next generation of
-                    developers. Heres a summary of my work so far.
+                    On a mission to build products and contribute to opensource, and along the way, teach the next generation of
+                    developers. Here&apos;s some of my work so far.
                 </p>
             </div>
             {ProjectList.map((item, index) => {
@@ -32,7 +32,7 @@ const Build = () => {
             <div className="flex space-x-4 my-10">
                 <a
                     href="https://x.com/_barat_tw"
-                    className="flex p-3 px-5 md:px-8 rounded-lg border border-neutral-800 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-gray-600 hover:dark:bg-neutral-800/30">
+                    className="flex p-3 px-5 md:px-8 rounded-lg border border-neutral-800 transition-colors hover:border-gray-600 hover:bg-neutral-800/30">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
                          stroke="currentColor" className="size-[1.2rem] mt-[0.4rem] mr-2">
                         <path strokeLinecap="round" strokeLinejoin="round"

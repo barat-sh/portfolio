@@ -10,7 +10,7 @@ const Home = () => {
     return (
         <>
             <div className="flex">
-                <p className="flex static w-auto justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-4 pt-6 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
+                <p className="flex static w-auto justify-center border-b pb-4 pt-6 backdrop-blur-2xl border-neutral-800 bg-zinc-800/30 from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:p-4 lg:bg-zinc-800/30">
                     <code className="font-mono text-[1rem] font-bold">hey, I&apos;m Barat👋</code>
                 </p>
                 <p className="text-sm text-gray-300 pt-8 ml-2 sm:ml-0">a software engineer.</p>
@@ -79,7 +79,7 @@ const Home = () => {
                 <div className="flex justify-evenly">
                     <a
                         href="https://x.com/_barat_tw"
-                        className="flex p-3 px-3 sm:px-5 md:px-8 bg-neutral-900 rounded-lg border border-neutral-800 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-gray-600 hover:dark:bg-neutral-800/30">
+                        className="flex p-3 px-3 sm:px-5 md:px-8 bg-neutral-900 rounded-lg border border-neutral-800 transition-colors hover:border-gray-600 hover:bg-neutral-800/30">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
                              stroke="currentColor" className="size-[1.2rem] mt-[0.4rem] mr-2">
                             <path strokeLinecap="round" strokeLinejoin="round"
@@ -89,7 +89,7 @@ const Home = () => {
                     </a>
                     <a
                         href="https://github.com/barat-sh"
-                        className="flex p-3 px-3 sm:px-5 md:px-8 bg-neutral-900 rounded-lg border border-neutral-800 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-gray-600 hover:dark:bg-neutral-800/30">
+                        className="flex p-3 px-3 sm:px-5 md:px-8 bg-neutral-900 rounded-lg border border-neutral-800 transition-colors hover:border-gray-600 hover:bg-neutral-800/30">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
                              stroke="currentColor" className="size-[1.2rem] mt-[0.4rem] mr-2">
                             <path strokeLinecap="round" strokeLinejoin="round"
@@ -99,7 +99,7 @@ const Home = () => {
                     </a>
                     <a
                         href="https://www.linkedin.com/in/barathelangovan/"
-                        className="flex p-3 px-3 sm:px-5 md:px-8 bg-neutral-900 rounded-lg border border-neutral-800 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-gray-600 hover:dark:bg-neutral-800/30">
+                        className="flex p-3 px-3 sm:px-5 md:px-8 bg-neutral-900 rounded-lg border border-neutral-800 transition-colors hover:border-gray-600 hover:bg-neutral-800/30">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
                              stroke="currentColor" className="size-[1.2rem] mt-[0.4rem] mr-2">
                             <path strokeLinecap="round" strokeLinejoin="round"
@@ -123,7 +123,7 @@ const Home = () => {
                 </p>
                 <a
                     href="https://github.com/barat-sh/Vim-Setup"
-                    className="p-3 px-2 sm:px-5 md:px-8 bg-neutral-900 rounded-lg border border-neutral-800 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-gray-600 hover:dark:bg-neutral-800/30">
+                    className="p-3 px-2 sm:px-5 md:px-8 bg-neutral-900 rounded-lg border border-neutral-800 transition-colors hover:border-gray-600 hover:bg-neutral-800/30">
                     <div className="flex justify-between">
                         <span className=" text-md">Here i made <i className="font-bold">vim</i> more functional and fun.</span>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
@@ -144,7 +144,7 @@ const Home = () => {
                 <div className="flex space-x-4">
                     <a
                         href="https://x.com/_barat_tw"
-                        className="flex p-3 px-5 md:px-8 rounded-lg border border-neutral-800 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-gray-600 hover:dark:bg-neutral-800/30">
+                        className="flex p-3 px-5 md:px-8 rounded-lg border border-neutral-800 transition-colors hover:border-gray-600 hover:bg-neutral-800/30">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
                              stroke="currentColor" className="size-[1.2rem] mt-[0.4rem] mr-2">
                             <path strokeLinecap="round" strokeLinejoin="round"
