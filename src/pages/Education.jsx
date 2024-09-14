@@ -19,7 +19,7 @@ const Education = () => {
             </div>
             <div style={{borderTop: '1px solid gray', margin: '10px 0'}}/>
             <div
-                className="flex justify-between text-justify mt-6 max-w-2xl mb-6 w-auto min-w-72 h-auto min-h-32 shadow-md rounded-lg space-y-4 text-gray-200 border border-stone-700 p-4 px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-gray-600 hover:dark:bg-neutral-800/30">
+                className="flex justify-between text-justify mt-6 max-w-2xl mb-6 w-auto min-w-72 h-auto min-h-32 shadow-md rounded-lg space-y-4 text-gray-200 border border-stone-700 p-4 px-5 py-4 transition-colors hover:border-gray-600 hover:bg-neutral-800/30">
                 <div>
                     <p className="flex w-auto pt-6 text-md md:text-xl text-neutral-300">
                         Woolf University
@@ -31,7 +31,7 @@ const Education = () => {
                 <span className="text-neutral-400 hidden sm:block">90 credits</span>
             </div>
             <div
-                className="flex justify-between text-justify max-w-2xl mb-6 w-auto h-auto min-h-32 shadow-md rounded-lg space-y-4 text-gray-200 border border-stone-700 p-4 px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-gray-600 hover:dark:bg-neutral-800/30">
+                className="flex justify-between text-justify max-w-2xl mb-6 w-auto h-auto min-h-32 shadow-md rounded-lg space-y-4 text-gray-200 border border-stone-700 p-4 px-5 py-4 transition-colors hover:border-gray-600 hover:bg-neutral-800/30">
                 <div>
                     <p className="flex w-auto pt-6 text-md md:text-xl text-neutral-300">
                         BIT - Erode
@@ -46,7 +46,7 @@ const Education = () => {
             <div className="flex space-x-4 my-10">
                 <a
                     href="https://x.com/_barat_tw"
-                    className="flex p-3 px-5 md:px-8 rounded-lg border border-neutral-800 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-gray-600 hover:dark:bg-neutral-800/30">
+                    className="flex p-3 px-5 md:px-8 rounded-lg border border-neutral-800 transition-colors hover:border-gray-600 hover:bg-neutral-800/30">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
                          stroke="currentColor" className="size-[1.2rem] mt-[0.4rem] mr-2">
                         <path strokeLinecap="round" strokeLinejoin="round"

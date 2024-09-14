@@ -1,6 +1,5 @@
 const ProjectList = [
     {
-        id: 1,
         projectName: "React Deployment Service",
         projectInfo: "Upload Service - Clone a user’s react project from github to an R2 cloudflare bucket using aws-sdk, and push the\n" +
             "upload-id into a redis-queue." +
@@ -13,7 +12,6 @@ const ProjectList = [
         liveStatus: true
     },
     {
-        id: 2,
         projectName: "Vim-setup",
         projectInfo: "Designed an effective Vim setup for Full-Stack Web Development with typescript, git(lazygit) support.",
         projectDetailedInfo: "Implemented LSP. It powers our editor’s features, (code completion, syntax highlighting, and refactoring support). I have\n" +
