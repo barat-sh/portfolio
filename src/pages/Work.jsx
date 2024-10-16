@@ -91,16 +91,16 @@ const Work = () => {
                 <div className="flex mt-6 justify-between">
                     <div>
                         <div className="flex">
-                            <a href="https://www.interviewbit.com" className="text-xl font-mono text-neutral-300 hover:text-neutral-200">
+                            <a href="https://wato.ai" className="text-xl font-mono text-neutral-300 hover:text-neutral-200">
                                 Wato.ai
                             </a>
                         </div>
                         <p className="flex w-auto text-sm text-gray-500">
-                            Software Engineer Intern(Backend)
+                            Software Engineer Intern (Backend)
                         </p>
                     </div>
                     <div>
-                        <span>(6-M)</span>
+                        <span>(4-M)</span>
                     </div>
                 </div>
                 <ul className="list-disc list-inside ml-4">
