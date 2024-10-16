@@ -31,7 +31,7 @@ const Work = () => {
                             </a>
                         </div>
                         <p className="flex w-auto text-sm text-gray-500">
-                            Jr. Software Engineer
+                            Software Engineer
                         </p>
                     </div>
                     <div>
@@ -85,6 +85,32 @@ const Work = () => {
                     more closely with client needs, demonstrating my ability to deliver impactful solutions under tight
                     deadlines. It&apos;s used by Ola, Lenskart, PineLabs, Wakefit, Accel, Hanu, and more.
                 </p>
+            </div>
+            <div style={{borderTop: '1px solid gray', margin: '10px 0'}}/>
+            <div className="flex flex-col text-justify md:max-w-2xl space-y-4 text-neutral-400">
+                <div className="flex mt-6 justify-between">
+                    <div>
+                        <div className="flex">
+                            <a href="https://www.interviewbit.com" className="text-xl font-mono text-neutral-300 hover:text-neutral-200">
+                                Wato.ai
+                            </a>
+                        </div>
+                        <p className="flex w-auto text-sm text-gray-500">
+                            Software Engineer Intern(Backend)
+                        </p>
+                    </div>
+                    <div>
+                        <span>(6-M)</span>
+                    </div>
+                </div>
+                <ul className="list-disc list-inside ml-4">
+                    <li className="mb-2">
+                        Developed backend services for a SaaS tool focused on automating WhatsApp group and channel management.
+                    </li>
+                    <li className="mb-2">
+                        Created a client dashboard app with distinct admin and user interface, enabling efficient management of user data and tasks. The app featured real-time data updates and customise reports resulting in a 50% improvement in operational efficiency.
+                    </li>
+                </ul>
             </div>
             <div style={{borderTop: '1px solid gray', margin: '10px 0'}}/>
             <div className="flex flex-col text-justify md:max-w-2xl space-y-4 text-neutral-400">
