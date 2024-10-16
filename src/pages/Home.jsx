@@ -59,7 +59,7 @@ const Home = () => {
                              src="https://turbohire.co/wp-content/uploads/2023/01/cropped-favicon-192x192.png"/>
                     </a>
                     <a className="underline text-neutral-100" href={"https://turbohire.co"}>Turbohire</a> and Intern
-                    at <a className="underline text-neutral-100" href={"https://www.interviewbit.com"}>InterviewBit</a>
+                    at <a className="underline text-neutral-100" href={"https://wato.ai/"}> Wato.ai</a> and <a className="underline text-neutral-100" href={"https://www.interviewbit.com"}> InterviewBit</a>
                     . where, I had the opportunity to work on huge
                     codebase, in collaboration with talented professionals, in a fast-paced work environment in
                     production release.
@@ -137,8 +137,8 @@ const Home = () => {
                     </div>
                 </a>
                 <p>
-                    Ive worked with companies on developer marketing, developer relations, building open-source
-                    communities, product-led growth, and more.
+                    Ive worked with companies on building open-source
+                    communities, developer relations, product-led growth, and more.
                 </p>
                 <div style={{borderTop: '1px solid gray', margin: '20px 0'}}/>
                 <div className="flex space-x-4">
