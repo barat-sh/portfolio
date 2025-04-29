@@ -33,12 +33,11 @@
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
-          to bottom,
-          transparent,
-          rgb(var(--background-end-rgb))
-  )
-  rgb(var(--background-start-rgb));
-  background-image: url('https://images.unsplash.com/photo-1608471551011-69c5cac6d910?q=80&w=3384&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -65,3 +64,4 @@ button {
 button:hover {
   color: #ffffee;
 }
+
